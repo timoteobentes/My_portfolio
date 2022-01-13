@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, black, rgb(0, 0, 128));
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#video {
+  height: 25rem;
+  border-radius: 50%;
+}
+
+.intro {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-style: bold;
+  margin: 15px;
+}
+
+.nome {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  margin: 15px;
+}
+
+.p1 {
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 15px;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+}
+
+.meio {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  flex-direction: row;
+  font-family: "Francois One", sans-serif;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+
+.texto {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hab {
+  padding: 15px;
+}
+
+.paragrafo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.study {
+  padding: 40px;
+}
+
+.meio2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.texto2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.formacao {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.detalhes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  border: 1px solid blue;
+  border-radius: 2%;
+  padding: 10px;
+  margin: 25px;
+}
+
+.detalhes2 {
+  display: flex;
+}
+
+.p4 {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.comprometimento {
+  padding: 10px;
+}
+
+.flexibilidade {
+  padding: 10px;
+}
+
+.comunicacao {
+  padding: 10px;
+}
+
+.crescimento {
+  padding: 10px;
+}
+
+.fim {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.p5 {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.fim a {
+  display: flex;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  padding: 5px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.whats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mail {
+  padding-right: 7px;
+}
+
+.zap {
+  padding-right: 7px;
+  padding-left: 15px;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 875px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .meio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+}
