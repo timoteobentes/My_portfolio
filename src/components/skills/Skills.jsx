@@ -1,5 +1,7 @@
 import React from 'react';
 import './skills.css';
+import { faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Skills = () => {
     return (
@@ -9,7 +11,10 @@ const Skills = () => {
             </div>
             <div className='hab-skills'>
                 <div className='skill-line-1'>
-                    <div className='WebDev'><p>Web Development</p></div>
+                    <div className='WebDev'>
+                        <FontAwesomeIcon icon={faGitAlt} />
+                        <p>Web Development</p>
+                    </div>
                     <div className='Js'><p>JavaScript</p></div>
                     <div className='React'><p>ReactJS</p></div>
                     {/* <FontAwesomeIcon icon={['fas', 'github']} /> */}

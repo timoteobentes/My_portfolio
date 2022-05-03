@@ -2,7 +2,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 // import your icons
-import { faMoneyBill } from 'fortawesome/pro-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import {
     faGithub,
@@ -11,13 +10,11 @@ import {
     faHtml5,
     faCss3Alt,
     faJsSquare,
-    faBootstrap,
-    faDatabase,
+    faBootstrap
 } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(
-    faMoneyBill,
     faCode,
     faGithub,
     faGitAlt,
@@ -25,9 +22,8 @@ library.add(
     faHtml5,
     faCss3Alt,
     faJsSquare,
-    faBootstrap,
-    faDatabase
+    faBootstrap
     // more icons go here
 );
 
-export default FontAwesomeIcon;
+// export default FontAwesomeIcon;

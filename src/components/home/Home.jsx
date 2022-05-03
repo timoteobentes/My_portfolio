@@ -7,10 +7,10 @@ const Home = () => {
         <div id="home">
             <div className="texts">
                 <h1>Timóteo Bentes</h1>
-                <h4 className='desc'>HTML Web Developer</h4>
+                <h4 className='desc effect'>HTML Web Developer</h4>
             </div>
             <div className="photo">
-                <img src={photo1} className="Photo-tim" alt="Foto" width={220} />
+                <img src={photo1} className="Photo-tim" alt="Foto" width={350} />
             </div>
             <div className="see-github">
                 <a href="https://github.com/timoteobentes?tab=repositories" className="github-home">See Repositories</a>

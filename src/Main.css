@@ -5,9 +5,9 @@
 }
 
 body {
-  /* background-image: url('./img/background.jpg');
-  background-size: 100%; */
-  background-color: black;
+  background-image: url('./img/Wave.jpg');
+  background-size: 100%;
+  /* background-color: black; */
   color: white;
   /* background: linear-gradient(-45deg, blue, rgb(0, 217, 255), rgb(0, 255, 191));
   background-size: 400% 400%;

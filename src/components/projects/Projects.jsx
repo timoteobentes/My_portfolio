@@ -20,7 +20,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="photo_3">
-                <img src={photo3} className="Photo-timo3" alt="Foto" width={150} />
+                <img src={photo3} className="Photo-timo3" alt="Foto" width={350} />
             </div>
         </div>
     )
