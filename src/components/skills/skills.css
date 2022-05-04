@@ -7,11 +7,16 @@
     width: 80vw;
 }
 
+.texts_skills  h2 {
+    font-size: 70px;
+    opacity: 50%;
+}
+
 .hab-skills {
     display: flex;
     position: absolute;
-    top: 190%;
-    left: 15%;
+    top: 130%;
+    left: 12%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -32,19 +37,27 @@
     border: 2px solid rgb(0, 174, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
     margin-right: 20px;
+}
+
+.WebDev p {
+    margin-left: 10px;
 }
 
 .Js {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(0, 174, 255);
+    border: 2px solid rgb(162, 0, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
     margin-right: 20px;
+}
+
+.Js p {
+    margin-left: 10px;
 }
 
 .React {
@@ -54,7 +67,11 @@
     border: 2px solid rgb(0, 174, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
+}
+
+.React p {
+    margin-left: 10px;
 }
 
 .skill-line-2 {
@@ -66,11 +83,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(0, 174, 255);
+    border: 2px solid rgb(162, 0, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
     margin-right: 20px;
+}
+
+.GG p {
+    margin-left: 10px;
 }
 
 .Boot {
@@ -80,16 +101,24 @@
     border: 2px solid rgb(0, 174, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
     margin-right: 20px;
+}
+
+.Boot p {
+    margin-left: 10px;
 }
 
 .SQL {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(0, 174, 255);
+    border: 2px solid rgb(162, 0, 255);
     border-radius: 15px;
     padding: 20px;
-    width: 190px;
+    width: 200px;
+}
+
+.SQL p {
+    margin-left: 10px;
 }
