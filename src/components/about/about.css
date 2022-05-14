@@ -1,9 +1,14 @@
 #about {
     display: flex;
     position: absolute;
-    top: 400%;
+    top: 415%;
     left: 15%;
     width: 80vw;
+}
+
+.texts_about h2 {
+    font-size: 70px;
+    opacity: 50%;
 }
 
 .about-line-1 {
@@ -28,8 +33,7 @@
 .hab-about {
     display: flex;
     position: absolute;
-    top: 190%;
-    left: 15%;
+    top: 150%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
