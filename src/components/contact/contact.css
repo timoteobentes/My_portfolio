@@ -1,7 +1,7 @@
 #contact {
     display: flex;
     position: absolute;
-    top: 535%;
+    top: 575%;
     left: 15%;
     width: 80vw;
 }
@@ -73,6 +73,8 @@
 .rs {
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
+    transition: 1s ease all;
 }
 
 .rs a:hover {

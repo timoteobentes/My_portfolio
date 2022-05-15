@@ -13,18 +13,18 @@ const Projects = () => {
             <div className='hab-projects'>
                 <div className='projects-line-1'>
                     <div className='P1'>
-                        <img src={pro1} className="Projeto-1" alt="Foto" width={300} />
+                        <img src={pro1} className="Projeto-1" alt="Foto" width={250} />
                         <a href="https://github.com/timoteobentes/Gospelplus" className='label-pro'>Gospel +</a>
                     </div>
                     <div className='P2'>
-                        <img src={pro2} className="Projeto-2" alt="Foto" width={300} />
-                        <a href="https://github.com/timoteobentes/krypto" className='label-pro'>Krypto!</a>
+                        <img src={pro2} className="Projeto-2" alt="Foto" width={250} />
+                        <a href="https://github.com/timoteobentes/krypto" className='label-pro2'>Krypto!</a>
                     </div>
                 </div>
             </div>
             <div className="photo_3">
                 <img src={photo3} className="Photo-timo3" alt="Foto" width={350} />
-                <a className="allRepo" href="https://github.com/timoteobentes?tab=repositories">SEE ALL</a>
+                <a className="allRepo" href="https://github.com/timoteobentes?tab=repositories">Ver todos</a>
             </div>
             
         </div>

@@ -25,7 +25,9 @@ const Contact = () => {
                             <input className='input' type='text' placeholder='Nome'></input><br></br><br></br>
                             <ValidationError prefix="input" field="input" errors={state.errors}/>
                             <input className='input' type='text' placeholder='Titulo'></input><br></br><br></br>
+                            <ValidationError prefix="input" field="input" errors={state.errors}/>
                             <textarea className='input' type='text' placeholder='Mensagem'></textarea><br></br>
+                            <ValidationError prefix="input" field="input" errors={state.errors}/>
                             <button type='submit' disabled={state.submitting} className='btn'>ENVIAR</button>
                         </form>
                     </div>

@@ -94,3 +94,26 @@
         border-right-color: transparent;
     }
 }
+
+@media screen and (max-width: 1085px) {
+    #home {
+        display: flex;
+        position: absolute;
+        top: 55%;
+        left: 30%;
+    }
+
+    .texts {
+        margin-top: 300px;
+    }
+
+    .texts h1 {
+        font-size: 80px;
+    }
+
+    .see-github a {
+        display: flex;
+        position: absolute;
+        top: 95%;
+    }
+}

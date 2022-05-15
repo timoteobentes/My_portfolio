@@ -122,3 +122,11 @@
 .SQL p {
     margin-left: 10px;
 }
+
+@media screen and (max-width: 1085px) {
+    #skills {
+        display: flex;
+        position: absolute;
+        top: 290%;
+    }
+}

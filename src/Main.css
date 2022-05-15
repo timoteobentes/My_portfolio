@@ -75,3 +75,10 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 1085px) {
+  body {
+    background-image: url('./img/Wave.jpg');
+    background-size: 400%;
+  }
+}
