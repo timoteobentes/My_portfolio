@@ -24,6 +24,8 @@
     display: block;
     width: 110px;
     transition: 1s ease all;
+    text-align: center;
+    align-items: center;
   }
 
   h3 a {
@@ -31,6 +33,7 @@
   }
 
   ul a:hover {
-    color: blueviolet;
+    color: white;
+    background-image: linear-gradient(to top, rgba(138, 43, 226, .5), rgb(0, 0, 0));
     border-bottom: 1px solid blueviolet;
   }

@@ -39,6 +39,11 @@
     padding: 20px;
     width: 200px;
     margin-right: 20px;
+    transition: 1s ease all;
+}
+
+.WebDev:hover {
+    background: rgb(0, 174, 255);
 }
 
 .WebDev p {
@@ -54,6 +59,11 @@
     padding: 20px;
     width: 200px;
     margin-right: 20px;
+    transition: 1s ease all;
+}
+
+.Js:hover {
+    background: rgb(162, 0, 255);
 }
 
 .Js p {
@@ -68,6 +78,11 @@
     border-radius: 15px;
     padding: 20px;
     width: 200px;
+    transition: 1s ease all;
+}
+
+.React:hover {
+    background: rgb(0, 174, 255);
 }
 
 .React p {
@@ -88,6 +103,11 @@
     padding: 20px;
     width: 200px;
     margin-right: 20px;
+    transition: 1s ease all;
+}
+
+.GG:hover {
+    background: rgb(162, 0, 255);
 }
 
 .GG p {
@@ -103,6 +123,11 @@
     padding: 20px;
     width: 200px;
     margin-right: 20px;
+    transition: 1s ease all;
+}
+
+.Boot:hover {
+    background: rgb(0, 174, 255);
 }
 
 .Boot p {
@@ -117,6 +142,11 @@
     border-radius: 15px;
     padding: 20px;
     width: 200px;
+    transition: 1s ease all;
+}
+
+.SQL:hover {
+    background: rgb(162, 0, 255);
 }
 
 .SQL p {
