@@ -14,15 +14,10 @@ const About = () => {
                         <p>
                             Sou Timóteo Bentes, tenho 18 anos, moro em Manaus, Amazonas. <br></br>
                             Amo tecnologia, e desde que tive contato com a programação, não quis parar de codar.
-                            Estou no 1º período no curso de Ciência da Computação pela faculdade Estácio;
+                            Estou cursando Ciência da Computação pela faculdade Estácio; <br></br> <br></br>
                             Meu objetivo de carreira é tornar um Desenvolvedor FullStack, contribuindo para a empresa e para a sociedade,
                             inovando e projetando. <br></br> <br></br>
                             Independente do trabalho ou serviço, busco dar o meu melhor.
-                            <br></br> <br></br>
-                            Outras coisas sobre mim:<br></br>
-                            Amo passar tempo com minha família;
-                            Amo cachorros;
-                            Team MCU;
                         </p>
                     </div>
                     <div className="photoA">

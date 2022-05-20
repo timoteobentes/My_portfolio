@@ -2,6 +2,11 @@
     "forms": {
         "contactForm": {
             "name": "Contact Form",
+            "fields": {
+                "nome": { "type": "text", "required": true},
+                "titulo": { "type": "text", "required": true},
+                "mensagem": { "type": "text", "required": true}
+            },
             "actions": [{ "type": "email", "to": "{bentestimoteo@gmail.com}" }]
         }
     }

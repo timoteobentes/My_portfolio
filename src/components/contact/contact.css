@@ -4,6 +4,7 @@
     top: 540%;
     left: 15%;
     width: 80vw;
+    margin-bottom: 10px;
 }
 
 .texts_contact h2 {
@@ -14,9 +15,10 @@
 .contact-line-1 {
     display: flex;
     margin-bottom: 20px;
+    margin-top: 100px;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .hab-contact {
@@ -28,41 +30,11 @@
     flex-direction: column;
 }
 
-.input {
-    background: rgba(0, 0, 0, .2);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    padding: 15px;
-    border: 2px solid rgb(0, 217, 255);
-    border-radius: 15px;
-    outline: none;
-    font-size: 15px;
-    width: 500px;
-}
-
-.btn {
-    background: rgb(0, 217, 255);
-    color: black;
-    padding: 15px;
-    border-radius: 15px;
-    border: none;
-    margin-top: 15px;
-    transition: 1s ease all;
-}
-
-.btn:hover {
-    background: black;
-    color: white;
-    border: 1px solid;
-    border-image: linear-gradient(to right, rgb(20, 33, 220), rgb(162, 0, 255));
-    border-image-slice: 3;
-    border-radius: 15px;
-}
-
 .Photo-timo2 {
-    margin-left: 80px;
+    position: absolute;
+    top: -50%;
+    left: 140%;
+    margin-bottom: 100px;
     filter: drop-shadow(0 0 2rem rgb(20, 33, 220));
     /* background-image: linear-gradient(45deg, rgb(153, 0, 255), rgb(43, 0, 143), rgba(0, 1, 53, 0.3), rgb(0, 0, 0)); */
 
@@ -74,13 +46,32 @@
     background-image: linear-gradient(45deg, rgb(162, 0, 255), rgb(20, 33, 220));
 }
 
-.rs {
+.C1 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 15px;
     transition: 1s ease all;
 }
 
-.rs a:hover {
+.C1 a:hover {
+    color: blueviolet;
+}
+
+.C1 .mail {
+    margin-right: 100px;
+}
+
+.C2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    transition: 1s ease all;
+}
+
+.C2 a:hover {
     color: blueviolet;
 }

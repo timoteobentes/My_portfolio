@@ -18,7 +18,6 @@ function Wrapper() {
       <Projects />
       <About />
       <Contact />
-      <scrollPage />
 
     </div>
   );
