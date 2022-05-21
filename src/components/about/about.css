@@ -1,7 +1,7 @@
 #about {
     display: flex;
     position: absolute;
-    top: 405%;
+    top: 433%;
     left: 15%;
     width: 80vw;
 }
@@ -43,4 +43,22 @@
     display: flex;
     border-radius: 50%;
     padding-right: 75px;
+}
+
+@media screen and (max-width: 412px) {
+    #about {
+        display: flex;
+        position: absolute;
+        top: 410%;
+    }
+
+    .about-line-1 {
+        flex-direction: column-reverse;
+    }
+
+    .A1 {
+        margin-top: 30px;
+        background: rgb(0, 174, 255);
+        color: black;
+    }
 }

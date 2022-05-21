@@ -27,7 +27,7 @@ const Skills = () => {
                         <FontAwesomeIcon icon={faJsSquare} size="3x"/>
                         <p>JavaScript</p>
                     </div>
-                    <div className='React' onMouseOver='ReactOver' onMouseOut={ document.getElementsByClassName('React').innerHTML = 'Aprendendo ainda, mas sei um pouco =p' }>
+                    <div className='React' onMouseOver='ReactOver'>
                         <FontAwesomeIcon icon={faReact} size="3x"/>
                         <p>ReactJS</p>
                     </div>

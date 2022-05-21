@@ -68,7 +68,6 @@
     border-image: linear-gradient(to right, rgb(20, 33, 220), rgb(162, 0, 255));
     border-image-slice: 3;
     color: white;
-    border-radius: 15px;
     width: 100px;
     transition: 1s ease all;
     text-align: center;
@@ -122,12 +121,13 @@
     }
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 412px) {
     #home {
         display: flex;
         position: absolute;
         top: 55%;
         left: 30%;
+        flex-direction: column;
     }
 
     .texts {
@@ -135,12 +135,27 @@
     }
 
     .texts h1 {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .see-github a {
         display: flex;
         position: absolute;
         top: 95%;
+    }
+
+    .see-cv {
+        display: flex;
+        position: absolute;
+        top: 107%;
+        left: 5%;
+    }
+
+    .Photo-tim {
+        display: flex;
+        position: absolute;
+        top: -15%;
+        left: -25px;
+        margin-left: 1px;
     }
 }

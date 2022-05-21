@@ -1,7 +1,7 @@
 #contact {
     display: flex;
     position: absolute;
-    top: 540%;
+    top: 580%;
     left: 15%;
     width: 80vw;
     margin-bottom: 10px;
@@ -74,4 +74,23 @@
 
 .C2 a:hover {
     color: blueviolet;
+}
+
+@media screen and (max-width: 412px) {
+    #contact {
+    display: flex;
+    position: absolute;
+    top: 550%;
+    }
+
+    .hab-contact {
+        flex-direction: column;
+    }
+
+    .Photo-timo2 {
+        position: absolute;
+        top: 110%;
+        left: 10%;
+        margin-bottom: 20px;
+    }
 }

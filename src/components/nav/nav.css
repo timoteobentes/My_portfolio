@@ -37,3 +37,16 @@
     background-image: linear-gradient(to top, rgba(138, 43, 226, .5), rgb(0, 0, 0));
     border-bottom: 1px solid blueviolet;
   }
+
+  @media screen and (max-width: 412px) {
+    .nav {
+      margin-left: 10px;
+      flex-direction: column;
+    }
+
+    ul a {
+      margin-top: 15px;
+      flex-direction: column;
+      width: 130px;
+    }
+  }

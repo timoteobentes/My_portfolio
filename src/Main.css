@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url('./img/Wave-min.jpg');
+  background-image: url('./img/Wave-min-min.jpg');
   background-size: 100%;
   /* background-color: black; */
   color: white;
@@ -78,7 +78,7 @@ body {
 
 @media screen and (max-width: 1085px) {
   body {
-    background-image: url('./img/Wave-min.jpg');
+    background-image: url('./img/Wave-min-min.jpg');
     background-size: 400%;
   }
 }

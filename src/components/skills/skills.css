@@ -2,7 +2,7 @@
 #skills {
     display: flex;
     position: absolute;
-    top: 170%;
+    top: 180%;
     left: 15%;
     width: 80vw;
 }
@@ -153,10 +153,54 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 412px) {
     #skills {
         display: flex;
         position: absolute;
-        top: 290%;
+        top: 180%;
+    }
+    
+    .WebDev {
+        border: none;
+    }
+
+    .React {
+        border: none;
+    }
+
+    .GG {
+        border: none;
+    }
+
+    .Js {
+        border: none;
+    }
+
+    .SQL {
+        border: none;
+    }
+
+    .Boot {
+        border: none;
+    }
+
+    .skill-line-1 {
+        flex-direction: column;
+        border: 2px solid rgb(0, 174, 255);
+        border-radius: 15px;
+    }
+
+    .skill-line-1:hover {
+        background: rgb(0, 174, 255);
+    }
+
+    .skill-line-2 {
+        flex-direction: column;
+        border: 2px solid rgb(162, 0, 255);
+        border-radius: 15px;
+    }
+    
+    .skill-line-2:hover {
+        background: rgb(162, 0, 255);
     }
 }
