@@ -67,16 +67,16 @@ body {
   color: #61dafb;
 } */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 700px) {
   body {
     background-image: url('./img/Wave-min-min.jpg');
     background-size: 400%;
